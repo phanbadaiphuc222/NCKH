@@ -1,0 +1,205 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: c history
+  steps:
+  - intent: about_c
+  - action: utter_about_c
+
+- story: programming
+  steps:
+  - intent: programming
+  - action: utter_programming
+
+- story: datatype
+  steps:
+  - intent: datatype
+  - action: utter_datatype
+
+- story: variable
+  steps:
+  - intent: variable
+  - action: utter_variable
+
+- story: loop
+  steps:
+  - intent: loop
+  - action: utter_loop
+
+- story: for_loop
+  steps:
+  - intent: for_loop
+  - action: utter_for_loop
+
+- story: while_loop
+  steps:
+  - intent: while_loop
+  - action: utter_while_loop
+
+- story: switch_case
+  steps: 
+  - intent: switch_case
+  - action: utter_switch_case
+
+- story: do_while_loop
+  steps:
+  - intent: do_while_loop
+  - action: utter_do_while_loop
+
+- story: break
+  steps:
+  - intent: break
+  - action: utter_break
+
+- story: syntax_error
+  steps:
+  - intent: syntax_error
+  - action: utter_syntax_error
+
+- story: runtime_error
+  steps:
+  - intent: runtime_error
+  - action: utter_runtime_error
+
+- story: error
+  steps:
+  - intent: error
+  - action: utter_error
+
+- story: logical_error
+  steps:
+  - intent: logical_error
+  - action: utter_logical_error
+
+- story: linker_error
+  steps:
+  - intent: linker_error
+  - action: utter_linker_error
+
+- story: reserved_word
+  steps:
+  - intent: reserved_word
+  - action: utter_reserved_word
+
+- story: identifier
+  steps: 
+  - intent: identifier
+  - action: utter_identifier
+
+- story: operators
+  steps:
+  - intent: operators
+  - action: utter_operators
+
+- story: logical_operators
+  steps:
+  - intent: logical_operators
+  - action: utter_logical_operators
+
+- story: relational_operators
+  steps:
+  - intent: relational_operators
+  - action: utter_relational_operators
+
+- story: arithmetic_operators
+  steps:
+  - intent: arithmetic_operators
+  - action: utter_arithmetic_operators
+
+- story: bitwise_operators
+  steps:
+  - intent: bitwise_operators
+  - action: utter_bitwise_operators
+
+- story: conditional_operators
+  steps:
+  - intent: conditional_operators
+  - action: utter_conditional_operators
+
+- story: assignment_operators
+  steps:
+  - intent: assignment_operators
+  - action: utter_assignment_operators
+
+- story: special_operators
+  steps:
+  - intent: special_operators
+  - action: utter_special_operators
+
+- story: float
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: float
+  - action: utter_float
+
+- story: float 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: float
+  - action: utter_float
+  - intent: affirm
+  - action: utter_happy
+
+- story: float 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: float
+  - action: utter_float
+
+- story: float 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: float
+  - action: utter_float
+
+- story: semantic_error
+  steps: 
+  - intent: semantic_error
+  - action: utter_semantic_error
+
+- story: integer
+  steps:
+  - intent: integer
+  - action: utter_integer
+
+# - story:
+#   steps:
+#   - intent:
+#   - action:
+

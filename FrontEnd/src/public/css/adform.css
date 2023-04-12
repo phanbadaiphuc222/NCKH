@@ -1,0 +1,133 @@
+.bd-admin {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bd-admin1 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  margin-left: 50px;
+  background-color: white;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.button:hover{
+  background: #1a83ff;
+}
+
+.radio {
+  margin: 0px 5px 0px 60px;
+}
+
+.format-css {
+  white-space: pre-line;
+  vertical-align: bottom; 
+  tab-size: 8; 
+}
+
+.data {
+  tab-size: 8;
+  margin-left: 250px;
+  margin-right: 250px;
+  white-space: pre-line;
+}
+
+.line {
+  border: 2px solid lightgreen;
+}
+
+.bd-admin {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bd-admin1 {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.radio {
+  margin: 0px 5px 0px 60px;
+}
+
+.format-css {
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+.data {
+  tab-size: 8;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.line {
+  border: 2px solid lightgreen;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: white;
+  border-color: grey;
+  border-width: 1px;
+}
+
+.button-mid {
+  margin: 0 50px 0 50px;
+}
+
+.button:hover {
+  background: #1a83ff;
+}
+
+.add-db-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 3% 20%;
+}
+
+.update-db-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 0% 20%;
+}
+
+.del-db-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 18% 20%;
+}
+
+.add-ex-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 13% 20%;
+}
+
+.update-ex-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 0% 20%;
+}
+
+.del-ex-css {
+  align-items: center;
+  justify-content: center;
+  margin: 3% 20% 18% 20%;
+}

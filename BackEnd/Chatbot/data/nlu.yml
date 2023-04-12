@@ -1,0 +1,466 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+  
+- intent: programming
+  examples: |
+    - What is programming?
+    - Programming?
+    - What is a Program?
+    - How does a program work?
+
+- intent: about_c
+  examples: |
+    - C
+    - C programming
+    - What is C language?
+    - Who developed C?
+    - History of C.
+    - When was C developed?
+    - Which year was C developed?
+    - Tell me something about C programming?
+    - Can you tell me something about C?
+    - Who is the founder of C?
+    - Give me some info about C?
+    - Who is the founder of C?
+    - Give me some info about C.
+    - What to do of C?
+    - What are features of C?
+    - C? what is that?
+    - Is it see? or Is it C?
+    - What are the key features in the C programming language?
+    - history of C
+    - History of C
+
+- intent: datatype
+  examples: |
+    - what is data type?
+    - data type?
+    - How does data type work?
+    - what is the basic data type of C?
+
+- intent: variable
+  examples: |
+    - what is variable?
+    - variable?
+    - How does variable work?
+    - what thing is called variable?
+    - explain variable
+
+- intent: loop
+  examples: |
+    - loops
+    - What are loop statements in C?
+    - How to give looping conditions in C?
+    - Tell me about looping?
+    - loop making in C?
+    - How can I loop in C?
+    - is loop making possible in C?
+    - What is the process to loop in C?
+    - Explain general form of loop?
+
+- intent: for_loop
+  examples: |
+    - for loop
+    - what is for loop in C?
+    - what is for loop?
+    - exaplain for loop?
+    - for
+    - How to use for loop in C?
+    - tell me about for loop in C?
+
+- intent: while_loop
+  examples: |
+    - while loop
+    - what is while loop in C?
+    - what is while loop?
+    - exaplain while loop?
+    - while
+    - How to use while loop in C?
+    - tell me about while loop in C?
+
+- intent: switch_case
+  examples: |
+    - Switch Case
+    - Case
+    - Case conditions
+    - How to use Switch Case?
+    - What is Switch Case?
+    - Conditional statement using switch case
+    - Conditional statement using case
+    - Other conditional statements
+    - Use of break and continue
+
+- intent: error
+  examples: |
+    - Errors
+    - Errors in C
+    - Types of errors
+    - What are different types of errors in C?
+    - How do errors occur?
+    - C errors
+    - What types of errors does C programming language have?
+
+- intent: syntax_error
+  examples: |
+    - Syntax error
+    - What are errors that occur at syntax?
+
+- intent: runtime_error
+  examples: |
+    - Runtime error
+    - What are errors that occur at runtime?
+
+- intent: break
+  examples: |
+    - break
+    - How to jump out of loops?
+    - How to break loops?
+    - How to end loop?
+    - What to do to break normal flow of loop?
+    - What is the process to abrubtly end loops?
+    - What is break and continue?
+    - How to use break?
+    - Easy way for conditional loops
+    - How to stop a loop?
+    - break statement in C
+
+- intent: do_while_loop
+  examples: |
+    - do while
+    - What is do while loop in C?
+    - How to use do while loop in C?
+    - Tell me about do while loop in C?
+    - Explain do while loop in C.
+    - What is syntax of do while loop in c.
+
+- intent: linker_error
+  examples: |
+    - Linker error
+    - Linking error
+    - What are errors that occur at linking?
+
+- intent: logical_error
+  examples: |
+    - Logical error
+    - What are errors that occur at runtime?
+
+- intent: reserved_word
+  examples: |
+    - Reserved words
+    - Keywords
+    - Reserved words in C
+    - What are reserved words?
+    - Words part of library
+    - Words with Predefined meaning
+    - Predefined words in C
+    - auto
+    - break keyword
+    - case
+    - char keyword
+    - const
+    - continue keyword
+    - default
+    - do keyword
+    - double keyword
+    - else keyword
+    - enum
+    - extern
+    - float
+    - for keyword
+    - goto keyword
+    - if keyword
+    - int keyword
+    - long keyword
+    - register keyword
+    - return keyword
+    - short keyword
+    - signed keyword
+    - sizeof keyword
+    - static keyword
+    - struct keyword
+    - switch keyword
+    - typedef keyword
+    - union keyword
+    - unsigned keyword
+    - void keyword
+    - volatile keyword
+    - while keyword
+
+- intent: identifier
+  examples: |
+    - Identifiers
+    - What are identifiers?
+    - name a variable
+    - name a function
+    - name a constant
+    - What is used to identify a value?
+    - How is a variable named?
+    - How are constants named?
+    - How are functions named?
+    - How are user-defined data named?
+    - Naming of keywords in C
+    - How to name a variable?
+    - what are identifiers in C
+
+- intent: logical_operators
+  examples: |
+    - Logical operators
+    - Logical operations
+    - && operator?
+    - || operator?
+    - What are logical operators?
+    - How to use logical operators?
+    - How to perform logical operations?
+    - Logical And
+    - Anding
+    - Logical Or
+    - Oring
+    - Logical Xor
+    - Xoring
+    - Logical Not
+    - Noting
+    - Using logical gates in C
+
+- intent: operators
+  examples: |
+    - Operators
+    - Operators in C
+    - What are operators?
+    - What are the operators?
+    - What's used to perform operation?
+    - Operations in C
+    - How to use operators?
+    - operators in C
+
+- intent: arithmetic_operators
+  examples: |
+    - Arithmetic operators
+    - Arithmetic operations
+    - Addition in C
+    - + operator
+    - - operator
+    - * operator
+    - / operator
+    - % operator
+    - Multiplication in C
+    - Division in C
+    - Subtraction in C
+    - What are arithmetic operators?
+    - How to perform arithmetic operations?
+    - How to perform mathematical operations?
+    - How to use arithmetic operators?
+
+- intent: relational_operators
+  examples: |
+    - Relational operators
+    - Relational operations
+    - == operator?
+    - < operator?
+    - > operator?
+    - >= operator?
+    - <= operator?
+    - != operator?
+    - What are Relational operators?
+    - How to use relational operators?
+    - How to compare values using operators?
+    - Comparison of values
+    - How to perform Relational operators?
+
+- intent: bitwise_operators
+  examples: |
+    - Bitwise operators
+    - Bitwise operations
+    - Bit-level operations
+    - Bit operations
+    - Shifting
+    - Shifting operators
+    - <<
+    - >>
+    - &
+    - |
+    - ^
+    - Bitwise And
+    - Bitwise Or
+    - Bitwise Xor
+    - Right shift
+    - Left shift
+    - what are Bitwise operators?
+    - How do Bitwise operators work?
+    - How to use Bitwise operators?
+    - How to perform Bitwise operations?
+
+- intent: assignment_operators
+  examples: |
+    - Assignment operators
+    - Assignment operations
+    - How to assign values to a variable?
+    - How to add while assigning?
+    - Add while assigning
+    - Subtract while assigning
+    - Multiply while assigning
+    - Divide while assigning
+    - = operator
+    - += operator
+    - -= operator
+    - *= operator
+    - /= operator
+    - %= operator
+    - what are Assignment operators?
+    - How do Assignment operators work?
+    - How to use Assignment operators?
+    - How to perform Assignment operations?
+
+- intent: special_operators 
+  examples: |
+    - Special Operators
+    - Special Operations
+    - How to use Special operators?
+    - How do Special operators work?
+    - How to perform special operations?
+    - Address operator
+    - & address operator
+    - * pointer operator
+    - sizeof
+    - sizeof operator
+
+- intent: conditional_operators
+  examples: |
+    - Conditional Operators
+    - Conditional Operations
+    - What are conditional operators?
+    - How to use if as a operator?
+    - ?: Operator
+    - Ternary Operator
+    - How to use Conditional operators?
+    - How do Conditional operators?
+    - How to perform Conditional operations?
+
+- intent: float
+  examples: |
+    - float
+    - When is float used?
+    - How to store floating point numbers?
+    - Can we store floating point numbers in C?
+    - When is float data type used?
+    - Which data type is used to store decimal number?
+    - How can I store a decimal number?
+    - What facilities are provied by C to store a decimal number?
+    - Can a decimal number be stored in C?
+    - Tell me more about float data type?
+    - Tell me about decimal number storing in C.
+    - What is float range?
+    - What is float span?
+    - Where to use float?
+    - Where to use double?
+    - When to use double?
+    - How is double used?
+    - Can you explain for us about float?
+
+- intent: integer
+  examples: |
+    - int
+    - When is int used?
+    - When is int data type used?
+    - Which data type is used to store number?
+    - How can I store a number?
+    - What facilities are provied by C to store a number?
+    - Can a number be stored in C?
+    - Tell me more about int data type?
+    - Tell me about number storing in C.
+
+- intent: semantic_error
+  examples: |
+    - Semantic error
+    - Symantic errors
+    - What are errors that occur at runtime?
+
+# - intent: 
+#   examples: |
